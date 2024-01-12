@@ -1,0 +1,50 @@
+/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    background-color: #C0AFAF;
+    padding: 10px;
+    height: 60px;
+}
+
+button {
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+}
+
+nav {
+    background-color: #F2EDEB;
+    height: calc(100% - 60px);
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; /* Initially set to fully transparent */
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+li {
+    color: black;
+}
